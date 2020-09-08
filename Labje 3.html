@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Jan Willem van Bochove, Software Developer
+            var number;
+            //Je maakt een variabele van number                                                                                                                                                                                                        
+            alert("Van welk nummer wil je de tafel van hebben?");
+            //Dit vraag welk nummer de tafel maakt
+            number        = prompt("Typ hier je nummer.");
+            //Hier zet je het nummer in de variabele
+
+            let str = '';
+            //Die maakt een lege let die string heet
+           
+            for (let i = 0; i < 11; i++) {
+                //Dit is een for loop
+            str = number * i;
+            //De uitkomst van number * I in de let str
+            document.write("<h1>" + i + "x" + number + "=" + str + "</h1>");
+            //Hier print hij het uit
+            }                                                     
+    </script>
+</body>
+</html>
