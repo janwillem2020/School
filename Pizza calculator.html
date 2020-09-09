@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+            var kleinePizza     = prompt("Aantal kleine pizza's:");
+            var middelpizza     = prompt("Aantal medium pizza's:");
+            var grotepizza      = prompt("Aantal grote pizza'a:");
+
+            var kleineprijs     = 6
+            var middelprijs     = 9
+            var groteprijs      = 12
+
+            totaalprijs = Number(kleinePizza) * Number(kleineprijs) + Number(middelpizza) * Number(middelprijs) + Number(grotepizza) *Number(groteprijs)
+
+            document.write("<h1>" + "Je hebt " + kleinePizza +   " kleine pizza's besteld."   + "<br>" + "</h1>")
+            document.write("<h1>" + "Je hebt " + middelpizza +  " middel pizza's besteld."  + "<br>" + "</h1>")
+            document.write("<h1>" + "Je hebt " + grotepizza +   " grote pizza's besteld."   + "<br>" + "</h1>")
+
+            document.write("<h1>" + "Je moet in totaal: €" + totaalprijs + ",- betalen" + "</h1>")
+
+        </script>
+    </body>
+</html>
